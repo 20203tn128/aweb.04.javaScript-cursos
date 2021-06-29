@@ -61,7 +61,7 @@ function actualizar(){
 
 function actualizarFicha(){
     document.getElementById("titulo").innerHTML = curso.nombre;
-    document.getElementById("descripcion").innerHTML = curso.descripcion;
+    document.getElementById("descrip").innerHTML = curso.descripcion;
     document.getElementById("nombre-docente").innerHTML = curso.docente.nombre;
     document.getElementById("total").innerHTML = curso.docente.cursos;
 }
